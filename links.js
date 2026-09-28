@@ -5,12 +5,12 @@
 
 const JOIN_LINKS = {
   // 1단계: 당근 모임 링크
-  carrot: "https://example.com/carrot",
+  carrot: "https://www.daangn.com/kr/group/e46u1m386uac/",
 
   // 2단계: 광나루 야구단 가입 문의 링크
-  team: "https://example.com/team",
+  team: "https://open.kakao.com/o/g0nIq0wi",
 
   // 기타 문의
-  kakao: "https://example.com/kakao",
-  email: "mailto:contact@example.com"
+  kakao: "https://open.kakao.com/o/srT4URPi",
+  email: "kganguser1@gmail.com"
 };
