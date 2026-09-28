@@ -12,5 +12,5 @@ const JOIN_LINKS = {
 
   // 기타 문의
   kakao: "https://open.kakao.com/o/srT4URPi",
-  email: "kganguser1@gmail.com"
+  email: "mailto:kganguser1@gmail.com""
 };
