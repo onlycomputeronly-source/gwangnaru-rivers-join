@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>광나루 리버스 | 입단 문의</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <a class="brand" href="#">
+    <span>GANGNARU</span>
+    <b>RIVERS</b>
+  </a>
+  <div class="badge">JOIN US</div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="watermark">R</div>
+    <div class="hero-inner">
+      <p class="eyebrow">GANGNARU RIVERS · JOIN</p>
+      <h1>같이<br><strong>뛰어볼래?</strong></h1>
+      <p class="intro">
+        광나루 리버스에 관심이 있다면<br>
+        편한 방법으로 문의해주세요.
+      </p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="section-head">
+      <p class="eyebrow">JOIN THE TEAM</p>
+      <h2>입단 문의</h2>
+      <p>아래 채널 중 편한 방법을 선택해 문의해주세요.</p>
+    </div>
+
+    <div class="links">
+      <a id="kakao" class="link-card kakao" href="#" target="_blank" rel="noopener">
+        <div class="icon">K</div>
+        <div class="link-text">
+          <span>KAKAO TALK</span>
+          <h3>카카오톡으로 문의</h3>
+          <p>팀 카카오톡을 통해 편하게 문의해주세요.</p>
+        </div>
+        <div class="arrow">↗</div>
+      </a>
+
+      <a id="carrot" class="link-card carrot" href="#" target="_blank" rel="noopener">
+        <div class="icon">당</div>
+        <div class="link-text">
+          <span>CARROT MEETING</span>
+          <h3>당근 모임으로 문의</h3>
+          <p>광나루 리버스가 시작된 당근 모임에서 만나보세요.</p>
+        </div>
+        <div class="arrow">↗</div>
+      </a>
+
+      <a id="email" class="link-card email" href="#">
+        <div class="icon">@</div>
+        <div class="link-text">
+          <span>E-MAIL</span>
+          <h3>이메일로 문의</h3>
+          <p>입단 관련 내용을 이메일로 보내주세요.</p>
+        </div>
+        <div class="arrow">↗</div>
+      </a>
+    </div>
+
+    <div class="notice">
+      <span>INFO</span>
+      <p>입단 문의 후 팀 운영진의 안내에 따라 가입 절차가 진행됩니다.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="brand"><span>GANGNARU</span> <b>RIVERS</b></div>
+  <p>AMATEUR BASEBALL CLUB</p>
+</footer>
+
+<script src="server.js"></script>
+<script>
+  // server.js의 링크를 버튼에 자동으로 연결합니다.
+  document.getElementById("kakao").href = JOIN_LINKS.kakao;
+  document.getElementById("carrot").href = JOIN_LINKS.carrot;
+  document.getElementById("email").href = JOIN_LINKS.email;
+</script>
+
+</body>
+</html>
